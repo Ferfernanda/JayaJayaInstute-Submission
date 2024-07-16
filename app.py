@@ -68,16 +68,18 @@ def main():
 
     # Convert input data to DataFrame
     input_df = pd.DataFrame([input_data])
-    prepro_df = preprocess(input_df)
+    st.markdown('Data Inputed: ')
+    input_df  
+
     
     
     # Prediction
     if st.button("Predict"):
+        prepro_df = preprocess(input_df)
         prediction = model.predict(prepro_df)
         prediction_label = 'Graduate Potential!' if prediction[0] == 1 else 'Dropout Potential!'
         st.subheader(f"The predicted status is: {prediction_label}")
-        st.markdown('Data Inputed: ')
-        input_df    
+         
         st.markdown('Data Preprocessed: ')
         prepro_df
 
