@@ -28,7 +28,8 @@ def predict(model, input_data):
     y_pred = model.predict(X_new)
     return y_pred[0]
 
-def preprocess(df_preprocess):
+def preprocess(df_prepro):
+    df_preprocess = df_prepro
     categorical_cols = ['Course', 'Gender', 'Displaced', 'Scholarship_holder', 'Mothers_qualification', 'Fathers_qualification', 'Mothers_occupation', 'Fathers_occupation']
     
     for col in categorical_cols:
