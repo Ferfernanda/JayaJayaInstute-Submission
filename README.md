@@ -37,8 +37,8 @@ Apabila menginstal Python melalui Anaconda ataupun Miniconda, Anda dapat menggun
 2. Jalankan perintah berikut untuk membuat virtual environment baru dengan Python 3.9:
 
 ```
-conda create --name main-jjm python=3.9
-conda activate main-jjm
+conda create --name main-jji python=3.9
+conda activate main-jji
 pip install -r requirements.txt
 ```
 3. Untuk Melakukan prediksi, run the app
