@@ -27,7 +27,7 @@ Membangun sistem prediksi menggunakan machine learning untuk mengidentifikasi si
 
 ### Persiapan
 
-Sumber data: [Employee Data](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+Sumber data: [Students Performance Data](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
 
 Setup environment:
 Apabila menginstal Python melalui Anaconda ataupun Miniconda, Anda dapat menggunakan conda sebagai package manager dan environment management system
